@@ -17,8 +17,8 @@ package com.sochnev.lesson1;
 public class catchException {
     public static void main(String[] args) throws Exception {
         try{
-            int num = Integer.parseInt("XYZ");
-            System.out.println(num);
+            int nums = Integer.parseInt("XYZ");
+            System.out.println(nums);
         }
         catch (RuntimeException e) {
             String s = e.getMessage();
